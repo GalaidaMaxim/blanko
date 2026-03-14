@@ -27,4 +27,35 @@ footer {
   & .logo {
     width: 112px;
   }
+  & .middle {
+    margin-top: 64px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    & .links {
+      display: flex;
+      gap: 16px;
+      & a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+    & .social {
+      display: flex;
+      gap: 8px;
+      & li {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
 }
