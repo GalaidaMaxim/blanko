@@ -1,14 +1,33 @@
 .skils {
+  & .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
   & li {
     display: flex;
+    gap: 24px;
   }
 
   & .thumb {
     width: 48px;
     height: 48px;
-    display: flex;
-    margin-top: 13px;
+    align-items: center;
+    justify-content: center;
   }
+  & .inths {
+    background: #ffcfb3;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  & .pusf {
+    flex-shrink: 5;
+  }
+
   & .withall {
     display: flex;
     justify-content: center;
@@ -20,14 +39,8 @@
     font-size: 24px;
     line-height: 32px;
     color: #000000;
-    margin-bottom: 10px;
   }
-  & .pusf {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 23px;
-    font-family: "Roboto";
-    font-style: normal;
+  & .text {
+    margin-top: 12px;
   }
 }
