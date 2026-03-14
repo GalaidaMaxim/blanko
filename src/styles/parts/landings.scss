@@ -1,0 +1,58 @@
+.landings {
+  & .container {
+    width: 1280px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  & .zagolovok {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  & .imagelan {
+    width: 100%;
+    height: 920px;
+    margin-top: 72px;
+  }
+  & .lansec {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  & li {
+    width: 396px;
+    height: 452px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    margin: 13px;
+  }
+  & .lan {
+    width: 395px;
+    height: 374px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #000000;
+  }
+
+  & .overimg {
+    width: 330px;
+    height: 330px;
+  }
+
+  & li p {
+    margin-top: 24px;
+    width: 122px;
+    height: 28px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    white-space: nowrap;
+    color: #000000;
+  }
+}
