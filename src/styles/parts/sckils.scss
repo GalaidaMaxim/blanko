@@ -1,0 +1,33 @@
+.skils {
+  & li {
+    display: flex;
+  }
+
+  & .thumb {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    margin-top: 13px;
+  }
+  & .withall {
+    display: flex;
+    justify-content: center;
+  }
+  & .title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  & .pusf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 23px;
+    font-family: "Roboto";
+    font-style: normal;
+  }
+}
