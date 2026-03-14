@@ -1,5 +1,44 @@
-.herro {
-  & body {
-    background-color: #ff7143;
+.full {
+  background-color: #ff7143;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 231px;
+
+  & button {
+    width: 208px;
+    height: 64px;
+    transition-duration: 500ms;
+    font-family: "Roboto";
+    border-radius: 5%;
+  }
+  & .pur {
+    background-color: black;
+    color: white;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  & .oth {
+    background-color: white;
+    color: black;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+.textinfo {
+  font-family: "Roboto";
+  text-align: center;
+  align-items: space-between;
+  & h1 {
+    font-size: 72px;
+    font-weight: 700;
+  }
+  & .peshka {
+    margin-top: 27px;
+  }
+  & .buttons {
+    margin-top: 22px;
   }
 }
