@@ -10,13 +10,36 @@
     font-family: "Roboto";
     font-weight: 400;
   }
+  & .drukk {
+    margin-top: 100px;
+  }
   & h1 {
     font-size: 40px;
+    margin-top: 39px;
+  }
+  & .twotext {
+    margin-top: 41px;
   }
   & .lar {
     font-weight: 700;
   }
   & .dir {
     opacity: 70%;
+  }
+  & .square1 {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+  }
+  & .square2 {
+    width: 16px;
+    height: 16px;
+    background-color: rgb(143, 143, 143);
+  }
+  & .flexxx {
+    display: flex;
+    gap: 6px;
+    margin-top: 20px;
+    margin-bottom: 100px;
   }
 }
