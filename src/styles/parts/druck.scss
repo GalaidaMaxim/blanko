@@ -1,0 +1,22 @@
+section {
+  background-color: black;
+  & .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 400;
+  }
+  & h1 {
+    font-size: 40px;
+  }
+  & .lar {
+    font-weight: 700;
+  }
+  & .dir {
+    opacity: 70%;
+  }
+}
